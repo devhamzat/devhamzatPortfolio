@@ -1,14 +1,62 @@
 ---
 import SectionHeader from "../components/SectionHeader.astro";
 import Layout from "../layout/Layout.astro";
-import Header from "../components/Header.astro"
+import Header from "../components/Header.astro";
 ---
 
 <Layout>
 	<main>
-		<Header/>
-		<SectionHeader>Salut
-			<i class="fa-light fa-hand-wave fa-beat-fade"></i>
-		</SectionHeader>
+		<Header />
+		<SectionHeader>Salut </SectionHeader>
+		<h2>Technologies</h2>
+		<div
+			class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-5 bg-background"
+		>
+			<ul class="grid grid-cols-2 gap-4">
+				<li class="flex items-center gap-2 py-2">
+					<i class="devicon-html5-plain"></i><p
+						class="text-sm font-medium"
+					>
+						Html
+					</p>
+				</li>
+				<li class="flex items-center gap-2 py-2">
+					<i class="devicon-css3-plain"></i></i><p
+						class="text-sm font-medium"
+					>
+						css
+					</p>
+				</li>
+				
+				<li class="flex items-center gap-2 py-2">
+					<i class="devicon-javascript-plain"></i>
+					<p class="text-sm font-medium">javaScript</p>
+				</li>
+				
+				<li class="flex items-center gap-2 py-2">
+					<i class="devicon-java-plain"></i><p
+						class="text-sm font-medium"
+					>
+						Java
+					</p>
+				</li>
+				
+				<li class="flex items-center gap-2 py-2">
+					<i class="devicon-astro-plain"></i><p
+						class="text-sm font-medium"
+					>
+						Astro
+					</p>
+				</li>
+				
+				
+			</ul>
+		</div>
 	</main>
-</Layout>
+	<style>
+		i {
+			font-size: 50px;
+		}
+
+	</style></Layout
+>
