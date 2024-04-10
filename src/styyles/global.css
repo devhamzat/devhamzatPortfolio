@@ -33,7 +33,7 @@ p {
 
 hr {
 	border: 0;
-	border-top: 1px solid #ffffff1b;
+	border-top: 1px solid black;
 }
 
 li {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 /* BLOG */
-.blog-content a {
+/* .blog-content a {
 	color: white;
 }
 .blog-content a:hover {
@@ -99,7 +99,7 @@ a:hover {
 	line-height: 1.9;
 	margin: 0;
 	@apply text-emerald-500;
-}
+} */
 
 .font-souvenir {
 	font-family: "SouvenirGreek Lt BT" !important;
