@@ -41,19 +41,19 @@ li {
 }
 
 a:hover {
-	@apply text-emerald-500;
+	@apply text-rose-200;
 }
 
-.highlight {
+/* .highlight {
 	@apply text-emerald-500;
-}
+} */
 
-/* SITE NAV */
+
 .site-nav {
 	@apply text-neutral-500 text-sm border-t border-b border-neutral-900 py-3 my-6;
 }
 .site-nav a {
-	@apply block w-max text-neutral-500 hover:text-emerald-500 transition-all;
+	@apply block w-max text-neutral-500 hover:text-rose-300 transition-all;
 }
 
 .back-link {
