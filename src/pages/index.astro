@@ -2,19 +2,35 @@
 import SectionHeader from "../components/SectionHeader.astro";
 import Layout from "../layout/Layout.astro";
 import Header from "../components/Header.astro";
+import Technology from "../components/Technology.astro";
+import Hub from "../components/Hub.astro";
 ---
 
 <Layout>
 	<main>
-		<Header />
-
 		<h1 class="text-3xl lg:text-3xl font-bold font-souvenir mb-4 mt-6">
 			Salut &#128075;
 		</h1>
 		<p id="about">
-			I'm a Computer science student in Nigeria and an aspiring software
-			developer. I enjoy building things that run on computers, <br />yes
-			even with bugs (: (forced smile).
+			I'm Hamzat, a computer science student obsessed with <span class="highlights">programs</span>.
+			. I enjoy building things that run on computers, there's nothing more rewarding than tackling a coding challenge and making it work perfectly (: <br />
+			
 		</p>
+		<section>
+			<SectionHeader>Hub</SectionHeader>
+			<Hub/>
+		</section>
 	</main>
 </Layout>
+<style>
+	.header {
+		color: rgb(232, 222, 222);
+	}
+	.highlights {
+		color: rgb(198, 212, 198);
+	}
+	#about{
+		font-weight: bold;
+		font-style: italic;
+	}
+</style>

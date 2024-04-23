@@ -1,0 +1,105 @@
+---
+
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            crossorigin="anonymous"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            referrerpolicy="no-referrer"
+            rel="stylesheet"
+        />
+        <title>Hub</title>
+    </head>
+    <body>
+        <div class="hub-card">
+            <p class="mt-3">Here are some of my exploration:</p>
+            <div class="mt-6 projects-grid">
+                <div class="project-card">
+                    <div class="project-description">
+                        <h3>
+                            <a
+                                href="https://github.com/devhamzat/atm-machine"
+                                target="_blank">Atm-machine</a
+                            >
+                        </h3>
+                        <p>
+                            This is a mini atm machine project, it is written in
+                            java .<br /> It is a command line project with feautures
+                            like transfer,withdrawal and more
+                        </p>
+                        <a
+                            href="https://github.com/devhamzat/atm-machine"
+                            target="_blank">view</a
+                        >
+                    </div>
+                </div>
+                <!-- <div class="project-card" data-name="beta">
+            <img alt="Project placeholder" class="project-img" loading="lazy" src="assets/images/pp.png" />
+            <div class="project-description">
+                <h3>Beta</h3>
+                <p>Aut saepe ratione et neque officia vel quasi adipisci. 33 adipisci modi id nihil quia vel dolorem sapiente ut sunt dolorum in veritatis repudiandae quo veniam quas.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div class="project-card" data-name="omega">
+            <img alt="Project placeholder" class="project-img" loading="lazy" src="assets/images/pp.png" />
+            <div class="project-description">
+                <h3>Omega</h3>
+                <p>33 adipisci modi id nihil quia vel dolorem sapiente ut sunt dolorum in veritatis repudiandae quo veniam quas.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </div> -->
+            </div>
+        </div>
+    </body>
+    <style>
+        .projects-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.8rem;
+        }
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border: 1px solid var(--body-color);
+        }
+        .project-card .project-img {
+            width: 100%;
+            aspect-ratio: 17/11;
+            border-bottom: 1px solid var(--body-color);
+            object-fit: cover;
+        }
+        .project-description {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            padding: 1rem;
+        }
+
+        .project-description p {
+            font-size: 14px;
+            margin-top: 0.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-description a {
+            width: max-content;
+            display: block;
+            font-size: var(--scale-4);
+            align-self: flex-end;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 0.7rem 1.25rem;
+        }
+    </style>
+</html>
