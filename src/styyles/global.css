@@ -60,46 +60,6 @@ a:hover {
 	@apply w-max block text-emerald-500 hover:no-underline hover:-translate-x-1 text-sm my-3 transition-all !important;
 }
 
-/* BLOG */
-/* .blog-content a {
-	color: white;
-}
-.blog-content a:hover {
-	text-decoration: underline;
-}
-.blog-content h1 {
-	@apply text-3xl font-bold font-souvenir mt-8 -mb-2;
-}
-.blog-content h2 {
-	@apply text-xl text-neutral-200 font-bold font-souvenir mt-4 -mb-2;
-}
-.blog-content p {
-	margin: 1rem 0;
-	font-size: .95rem;
-}
-.blog-content p > code {
-	padding: 0.15rem 0.4rem;
-	font-family: "Courier New", Courier, monospace;
-	@apply text-emerald-400 bg-emerald-400/10 text-xs font-semibold rounded-sm border border-emerald-500;
-}
-.blog-content pre {
-	background-color: var(--secondary-dark) !important;
-	padding: 1.25rem;
-	font-size: 0.85rem;
-	font-family: "Courier New", Courier, monospace;
-	overflow-x: auto;
-}
-.blog-content blockquote {
-	@apply bg-emerald-500 bg-opacity-10 border-l-2 border-emerald-500 px-4 py-2.5 my-4;
-}
-.blog-content blockquote p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	font-size: 0.88rem;
-	line-height: 1.9;
-	margin: 0;
-	@apply text-emerald-500;
-} */
 
 .font-souvenir {
 	font-family: "SouvenirGreek Lt BT" !important;
