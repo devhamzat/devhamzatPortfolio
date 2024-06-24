@@ -44,11 +44,6 @@ a:hover {
 	@apply text-rose-200;
 }
 
-/* .highlight {
-	@apply text-emerald-500;
-} */
-
-
 .site-nav {
 	@apply text-neutral-500 text-sm border-t border-b border-neutral-900 py-3 my-6;
 }
