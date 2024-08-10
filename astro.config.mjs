@@ -8,6 +8,8 @@ import icon from "astro-icon";
 export default defineConfig({
   integrations: [tailwind(), icon()],
   output: "server",
-  adapter: vercel(),
+  adapter: vercel({
+    webAnalytics:{enabled:true}
+  }),
   publicDir: './src/images',
 });
